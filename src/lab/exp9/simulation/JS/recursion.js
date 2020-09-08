@@ -24,7 +24,7 @@ window.view = {
 		 else if ( isNaN(input) === true )
 			alert('Number of disks must be an integer value !')
 		 else if ( input > 10 || input % 1 !== 0 )
-			alert('Only integral value (Greater than equal to 0 and less than equal to 10) is accepted !')
+			alert('Invalid Input!')
 		 else {
 			this.disableElement('btnOk')
 			this.enableElement('btnStart')
